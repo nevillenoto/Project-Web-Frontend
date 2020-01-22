@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <!-- De viewport van de website. Dit geeft de breedte van het device pakt en dat de gebruiker kan inzoomen max 1.5. Voor accesability voor bijvoorbeeld oudere mensen. (Andere manier is om de em te veranderen) -->
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=1.5, minimum-scale=1.0">
+    <title>NS Anime account aanmaken</title>
+    
+    <link rel="stylesheet" href="css/registratie.css"> 
+</head>
+
+<body>
+    <header>
+    <!-- Een svg logo van NS -->
+     <a href="index.html"><img class="logo" src="images/nslogo.png" alt="nslogo"></a>
+       <!-- Navigatie van de website -->
+       <nav>
+           <ul>
+               <li><img src="images/zoeken.png" title="Zoeken" alt="Zoeken"><a href="index.html"></a></li>
+               <li><a href="opgeslagen-verhalen.html"><img src="images/bookmark1.png" title="Bookmark" alt="Bookmark"></a></li>
+               <li><a href="mijn-profiel.html"><img src="images/mijn-profiel.png" title ="Mijn profiel" alt="Mijn profiel"></a></li>
+           </ul>
+       </nav>
+       <!-- Einde van de navigatie -->
+    </header>
+    <!-- Einde van de header -->
+    <!-- Inlog formulier. FEEDBACK JOOST: Labels gebruiken voor de inpute types. Denk aan de verschillende states. Bijvoorbeeld wanneer een wachtwoord niet klopt. Hover states, Valid states, -->
+    <main>
+        <article>
+            <h1>NS anime account aanmaken</h1>
+                <form action="index.html">
+                  <fieldset>
+                      <legend>Inlog gegevens</legend>
+                      <label>E-mailadres<input required type="text" id="email" name="email"></label>
+                      <label>Bevestig e-mailadres<input required type="text" id="email" name="email"></label>
+                      <label>Wachtwoord<input required type="password" id="password" name="password"></label>
+                      <label>Herhaal wachtwoord<input required type="password" id="password" name="password" ></label>
+                      <button>Account aanmaken</button>
+                 </fieldset>
+                </form>
+        </article>
+ 
+</main>    
+</body>
+</html>

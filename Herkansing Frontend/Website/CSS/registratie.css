@@ -1,0 +1,170 @@
+/* Header van de website */
+.logo {
+    max-width: 5rem;
+    margin-top: 1.5rem;
+}
+
+header{
+    background-color: white;
+    padding: 1rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+header svg {
+    max-width: 4rem;
+}
+
+/* Navigatie van de website */
+nav {
+    margin-left: auto;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+    margin-right: 1em;
+}
+
+nav ul li img {
+    max-width: 1.2rem;    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #092869;
+}
+
+li {
+  list-style-type: none;  
+}
+
+/* BODY van de website */
+body {
+    background-color: #F3F3F4;
+    font-family: NS Sans, serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: auto;
+  left: 1rem;
+}
+
+h2 {
+    font-weight: 100;
+    padding-left: 1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+h1,h2 {
+    color: #003082; 
+}
+
+svg {
+    width: 100%;
+    height: auto;
+}
+/* Inlog pagina */
+article {
+    background-color: white;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin: 1rem;
+
+}
+form {
+    background-color: white;
+    max-width: 100%;
+    height: 30rem
+}
+fieldset {
+    border: none;
+}
+
+legend {
+    color: #003082;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+/*Formulier*/
+label {
+    color: #003082;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+}
+
+/* Input fields */
+form input {
+    display: block;
+    border: none;
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    height: 2.5rem;
+    width: 23rem;
+    border: solid 0.1rem;
+    border-radius: 0.2rem;
+}
+/* Input field ingvuld */
+form input:required {
+  border-color: green;
+}
+
+/* Input field niet ingevuld */
+form input:invalid {
+  border-color: #D0011B;
+  background-color: lightpink;
+}
+
+form input:valid {
+    border-color: green;
+    background-color: lightgreen;
+}
+
+/* Fieldset word volledig groen als alles inputfields zijn ingevuld*/
+fieldset:valid{
+    background-color: springgreen;
+}
+
+/* Inlog knop */
+button {
+    background-color: #0079D3;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 100;
+    padding: 1rem 2rem 1rem 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-bottom: solid 0.15rem;
+    border-bottom-color: #005CA0;
+    border-radius: 0.2rem;
+}
+
+button:hover {
+    background-color: #005CA0;
+    border-color: #005CA0;
+}
+
+/* Responsive design naar tablet*/
+@media (min-width: 50em){
+    
+}
+
+/* Responsive design naar desktop*/
+@media (min-width: 70em){
+    
+}
+
+
